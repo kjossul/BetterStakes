@@ -1,4 +1,4 @@
-# BetterStakes
+# Better Stakes
 A mod for balatro that changes orange and gold stakes, making them easier and reducing the need to reset for a good start.
 
 Requires [Steamodded](https://github.com/Steamopollys/Steamodded).
