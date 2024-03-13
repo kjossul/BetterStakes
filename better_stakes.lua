@@ -39,7 +39,7 @@ function SMODS.INIT.BetterStakes()
     -- orange stake
     local card_open_ref = Card.open
     function Card.open(self)
-        if self.ability.set == "Booster" and self.ability.extra > 2 then
+        if G.GAME.stake >= 7 and self.ability.set == "Booster" and self.ability.extra > 2 then
             self.ability.extra = self.ability.extra - 1
         end
         return card_open_ref(self)      
