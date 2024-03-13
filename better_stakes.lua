@@ -50,7 +50,6 @@ function SMODS.INIT.BetterStakes()
     local rolls = {}
     function Blind.debuff_card(self, card, from_blind)
         result = blind_debuff_card_ref(self, card, from_blind)
-        print(G.STATE)
         if G.STATE == G.STATES.BLIND_SELECT then
             rolls[card]  = pseudorandom(pseudoseed('gold_stake_debuff'))  -- sets rolls at the start so that arcanas don't change debuffs
         elseif G.STATE == G.STATES.ROUND_EVAL then
