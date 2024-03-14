@@ -11,7 +11,7 @@ function SMODS.INIT.BetterStakes()
 
     -- orange stake modifications: packs with more than 2 cards have one less card instead
     -- gold stake: set probability of a card to be debuffed (doesn't get affected by "Oops! All 6s")
-    local DEBUFF_CHANCE = 0.25
+    local DEBUFF_CHANCE = 0.10
 
     -- change localization
     G.localization.descriptions.Stake.stake_orange.text = {
@@ -20,7 +20,7 @@ function SMODS.INIT.BetterStakes()
         "{s:0.8}Applies all previous Stakes"
     }
     G.localization.descriptions.Stake.stake_gold.text = {
-        "Each card has {C:attention}25% chance{}",
+        "Each card has {C:attention}" .. DEBUFF_CHANCE * 100  .. "% chance{}",
         "to be {C:red}debuffed{}",
         "{s:0.8}Applies all previous Stakes"
     }

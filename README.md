@@ -6,7 +6,7 @@ Requires [Steamodded](https://github.com/Steamopollys/Steamodded).
 # Changes
 
 - **Orange stake**: booster packs keep their base cost instead of scaling with ante, however each booster that has 3 or more cards contains one less instead.
-- **Gold stake**: hand size stays the same, but each card has 25% chance to be debuffed.
+- **Gold stake**: hand size stays the same, but each card has 10% chance to be debuffed.
 
 Cards get rolled for a debuff at the beginning of round, meaning you can get a look at your deck and plan around the debuffs. If you use Arcana cards to transform your playing cards during the round, the transformed card will keep its previous state. Some examples: 
 
@@ -23,5 +23,5 @@ This often leads to resetting a run for a good joker start, eventually trying to
 
 ![Debuffs](Screenshots/debuffs.png)
 
-# Future development
-- Remove debuffs from deck preview when not in a round, doesn't look too nice right now.
+# Changelog
+- Changed debuff chance from 25% to 10%.
